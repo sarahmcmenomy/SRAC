@@ -1,0 +1,28 @@
+{
+  "name": "srac",
+  "version": "1.0.0",
+  "description": "A service for creation of a character using astrological driven data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "testDashboard": "npx cypress open",
+    "lint": "eslint ./** --ignore-pattern /node_modules/*/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahmcmenomy/SRAC.git"
+  },
+  "author": "Sarah Mcmenomy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sarahmcmenomy/SRAC/issues"
+  },
+  "homepage": "https://github.com/sarahmcmenomy/SRAC#readme",
+  "dependencies": {
+    "chart.js": "^4.4.2"
+  },
+  "devDependencies": {
+    "cypress": "^13.7.1",
+    "eslint": "^8.57.0"
+  }
+}
