@@ -2,7 +2,7 @@
   "name": "srac",
   "version": "1.0.0",
   "description": "A service for creation of a character using astrological driven data.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "npx cypress run",
     "testDashboard": "npx cypress open",
@@ -19,9 +19,11 @@
   },
   "homepage": "https://github.com/sarahmcmenomy/SRAC#readme",
   "dependencies": {
-    "chart.js": "^4.4.2"
+    "chart.js": "^4.4.2",
+    "circular-natal-horoscope-js": "^1.1.0"
   },
   "devDependencies": {
+    "coveralls": "^3.1.1",
     "cypress": "^13.7.1",
     "eslint": "^8.57.0"
   }
